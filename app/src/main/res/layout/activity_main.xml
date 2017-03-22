@@ -1,0 +1,85 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/app_name"
+    android:background="#ffffb95c">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@id/android:list"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="+"
+        android:id="@+id/Add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Database"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/Add"
+        android:layout_toStartOf="@+id/Add"
+        android:textSize="45sp"
+
+        android:layout_alignParentTop="true"
+        android:textColor="#ff000000" />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/linearLayout2"
+            android:background="#fffff947">
+
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Course"
+        android:id="@+id/textView5"
+         />
+
+    <TextView
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Professor"
+        android:id="@+id/textView10"
+         />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Venue"
+        android:id="@+id/textView11"
+        />
+
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Code"
+        android:id="@+id/textView12"
+          />
+
+</LinearLayout>
+</RelativeLayout>
